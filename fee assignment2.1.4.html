@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rubik's Cube</title>
+    <style>
+#container{
+    display: flex;
+    justify-content: center;
+
+}
+*{
+    font-family: sans-serif;
+}
+#box{
+    position: relative;
+    max-width: 600px;
+    border: 1px solid #a90909;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 20px;
+    }
+#box>img{
+    width: 100%;
+    height: auto;
+}
+#box>button{
+    position: relative;
+    left: 520px;
+
+    padding: 8px;
+    background-color: rgb(31, 97, 203);
+    border-radius: 6px;
+    color: yellow;
+}
+#box>button:hover{
+    background-color: skyblue;
+    transform: translateY(3px);
+    color: rgb(29, 27, 26);
+}
+#box>h1{
+    text-align: center;
+}
+
+    </style>
+</head>
+<body id="container">
+
+<div id="box">
+    <h1>Rubik's Cube</h1>
+    <img src="https://cdn.prod.website-files.com/6595ca03bcd68f311fd41872/65b129cc757a058b00453793_65aedf9a1302da9e5e630d27_product__SPEED_main.jpeg" alt="">
+    <p>The Rubik's Cube is a 3D combination puzzle invented in 1974[2][3] by Hungarian sculptor and professor of architecture Ernő Rubik. Originally called the Magic Cube,[4] the puzzle was licensed by Rubik to be sold by Pentangle Puzzles in the UK in 1978,[5] 
+        and then by Ideal Toy Corp in 1980[6] via businessman Tibor Laczi and Seven Towns founder Tom Kremer.</p>
+    <button>Read More</button>
+</div>    
+    
+</body>
+</html>

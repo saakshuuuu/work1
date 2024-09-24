@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLOG</title>
+<style>
+.container{
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+*{
+    font-family: sans-serif;
+}
+.container>h1{
+    color: rgb(174, 54, 43);
+}
+.container>div{
+    background-color: rgb(144, 149, 156);
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 6px;
+}
+.container>h1+div>h2{
+    color: skyblue;
+}
+.container>h1+div>h2+p{
+    color: rgb(0, 0, 0);
+}
+.container>h1+div+div>h2{
+    color: darkblue;
+}
+.container>h1+div+div>h2+p{
+    color: sienna;
+}
+
+
+
+
+</style>
+</head>
+<body>
+    <div class="container">
+        <h1>Adventure Sports</h1>
+        <div class="post">
+         <h2>Sky Diving</h2>
+         <p>Skydiving is parachuting (jumping) from an airplane for fun. Skydiving can be done individually and with groups of people. Training is required. Unlike most paratroopers, skydivers often wait until they are low, before opening the parachute. The jump can also be
+             made from a helicopter or a balloon that is high enough in the sky. Skydiving can be an exciting sport.</p>
+        </div>
+        <div class="post">
+         <h2 style="color: skyblue;">Hiking</h2>
+         <p style="color: black;">A hike is a long, vigorous walk, usually on trails or footpaths in the countryside. Walking for pleasure developed in Europe during the eighteenth century.[1] Long hikes as part of a religious pilgrimage have existed for a much longer time. "Hiking" is the preferred term in
+             Canada and the United States; the term "walking" is used in these regions for shorter, particularly urban walks.</p>
+        </div>
+        <div class="post">
+            <h2 style="color: skyblue;">Rafting</h2>
+            <p style="color: black;">Rafting and whitewater rafting are recreational outdoor activities which use an inflatable raft to navigate a river or other body of water. This is often done on whitewater or
+                 different degrees of rough water. Dealing with risk is often a part of the experience.</p>
+            </div>
+        </div>
+</body>
+</html>
